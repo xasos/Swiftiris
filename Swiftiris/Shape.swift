@@ -47,7 +47,7 @@ let SecondBlockIdx: Int = 1
 let ThirdBlockIdx: Int = 2
 let FourthBlockIdx: Int = 3
 
-class Shape: Hashable, Printable {
+class Shape: Hashable {
     let color:BlockColor
     
     var blocks = Array<Block>()
@@ -60,7 +60,7 @@ class Shape: Hashable, Printable {
         return [:]
     }
     
-    var bottomBlocksForOrientation: [Orientation: Array<Block>] {
+    var bottomBlocksForOrientations: [Orientation: Array<Block>] {
         return [:]
     }
     

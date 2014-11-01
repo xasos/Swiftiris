@@ -29,6 +29,7 @@
 		EBADECC71A047DC800CFB658 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADECC61A047DC800CFB658 /* Array2D.swift */; };
 		EBADECC91A047FE100CFB658 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADECC81A047FE100CFB658 /* Block.swift */; };
 		EBADECCB1A049A7C00CFB658 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADECCA1A049A7C00CFB658 /* Shape.swift */; };
+		EBADECCD1A04A6E300CFB658 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADECCC1A04A6E300CFB658 /* SquareShape.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		EBADECC61A047DC800CFB658 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		EBADECC81A047FE100CFB658 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		EBADECCA1A049A7C00CFB658 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		EBADECCC1A04A6E300CFB658 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				EBADECC61A047DC800CFB658 /* Array2D.swift */,
 				EBADECC81A047FE100CFB658 /* Block.swift */,
 				EBADECCA1A049A7C00CFB658 /* Shape.swift */,
+				EBADECCC1A04A6E300CFB658 /* SquareShape.swift */,
 			);
 			path = Swiftiris;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBADECCD1A04A6E300CFB658 /* SquareShape.swift in Sources */,
 				EBADEC801A046DAA00CFB658 /* GameScene.swift in Sources */,
 				EBADECCB1A049A7C00CFB658 /* Shape.swift in Sources */,
 				EBADECC71A047DC800CFB658 /* Array2D.swift in Sources */,
