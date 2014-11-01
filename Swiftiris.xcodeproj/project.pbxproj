@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		EBADEC7C1A046DAA00CFB658 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADEC7B1A046DAA00CFB658 /* AppDelegate.swift */; };
-		EBADEC7E1A046DAA00CFB658 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EBADEC7D1A046DAA00CFB658 /* GameScene.sks */; };
 		EBADEC801A046DAA00CFB658 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADEC7F1A046DAA00CFB658 /* GameScene.swift */; };
 		EBADEC821A046DAA00CFB658 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADEC811A046DAA00CFB658 /* GameViewController.swift */; };
 		EBADEC851A046DAA00CFB658 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBADEC831A046DAA00CFB658 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		EBADEC761A046DAA00CFB658 /* Swiftiris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiftiris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBADEC7A1A046DAA00CFB658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBADEC7B1A046DAA00CFB658 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EBADEC7D1A046DAA00CFB658 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		EBADEC7F1A046DAA00CFB658 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		EBADEC811A046DAA00CFB658 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		EBADEC841A046DAA00CFB658 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				EBADEC7B1A046DAA00CFB658 /* AppDelegate.swift */,
-				EBADEC7D1A046DAA00CFB658 /* GameScene.sks */,
 				EBADEC7F1A046DAA00CFB658 /* GameScene.swift */,
 				EBADEC811A046DAA00CFB658 /* GameViewController.swift */,
 				EBADEC831A046DAA00CFB658 /* Main.storyboard */,
@@ -200,7 +197,6 @@
 			files = (
 				EBADEC8A1A046DAA00CFB658 /* LaunchScreen.xib in Resources */,
 				EBADEC871A046DAA00CFB658 /* Images.xcassets in Resources */,
-				EBADEC7E1A046DAA00CFB658 /* GameScene.sks in Resources */,
 				EBADEC851A046DAA00CFB658 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -349,6 +345,7 @@
 				INFOPLIST_FILE = Swiftiris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -359,6 +356,7 @@
 				INFOPLIST_FILE = Swiftiris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
