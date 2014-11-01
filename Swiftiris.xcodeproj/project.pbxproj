@@ -14,6 +14,18 @@
 		EBADEC871A046DAA00CFB658 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBADEC861A046DAA00CFB658 /* Images.xcassets */; };
 		EBADEC8A1A046DAA00CFB658 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBADEC881A046DAA00CFB658 /* LaunchScreen.xib */; };
 		EBADEC961A046DAA00CFB658 /* SwiftirisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBADEC951A046DAA00CFB658 /* SwiftirisTests.swift */; };
+		EBADECA51A047A3C00CFB658 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBADECA01A047A3C00CFB658 /* bomb.mp3 */; };
+		EBADECA61A047A3C00CFB658 /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBADECA11A047A3C00CFB658 /* drop.mp3 */; };
+		EBADECA71A047A3C00CFB658 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBADECA21A047A3C00CFB658 /* gameover.mp3 */; };
+		EBADECA81A047A3C00CFB658 /* levelup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBADECA31A047A3C00CFB658 /* levelup.mp3 */; };
+		EBADECA91A047A3C00CFB658 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EBADECA41A047A3C00CFB658 /* theme.mp3 */; };
+		EBADECAB1A047A4500CFB658 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EBADECAA1A047A4500CFB658 /* Sprites.atlas */; };
+		EBADECC01A047AA100CFB658 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBA1A047AA100CFB658 /* background.png */; };
+		EBADECC11A047AA100CFB658 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBB1A047AA100CFB658 /* background@2x.png */; };
+		EBADECC21A047AA100CFB658 /* gameboard.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBC1A047AA100CFB658 /* gameboard.png */; };
+		EBADECC31A047AA100CFB658 /* gameboard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBD1A047AA100CFB658 /* gameboard@2x.png */; };
+		EBADECC41A047AA100CFB658 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBE1A047AA100CFB658 /* whitebg.png */; };
+		EBADECC51A047AA100CFB658 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBADECBF1A047AA100CFB658 /* whitebg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +50,18 @@
 		EBADEC8F1A046DAA00CFB658 /* SwiftirisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftirisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBADEC941A046DAA00CFB658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBADEC951A046DAA00CFB658 /* SwiftirisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftirisTests.swift; sourceTree = "<group>"; };
+		EBADECA01A047A3C00CFB658 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		EBADECA11A047A3C00CFB658 /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
+		EBADECA21A047A3C00CFB658 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		EBADECA31A047A3C00CFB658 /* levelup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = levelup.mp3; sourceTree = "<group>"; };
+		EBADECA41A047A3C00CFB658 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = "<group>"; };
+		EBADECAA1A047A4500CFB658 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		EBADECBA1A047AA100CFB658 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		EBADECBB1A047AA100CFB658 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		EBADECBC1A047AA100CFB658 /* gameboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gameboard.png; sourceTree = "<group>"; };
+		EBADECBD1A047AA100CFB658 /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
+		EBADECBE1A047AA100CFB658 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
+		EBADECBF1A047AA100CFB658 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +109,8 @@
 				EBADEC831A046DAA00CFB658 /* Main.storyboard */,
 				EBADEC861A046DAA00CFB658 /* Images.xcassets */,
 				EBADEC881A046DAA00CFB658 /* LaunchScreen.xib */,
+				EBADECAA1A047A4500CFB658 /* Sprites.atlas */,
+				EBADEC9F1A047A3C00CFB658 /* Sounds */,
 				EBADEC791A046DAA00CFB658 /* Supporting Files */,
 			);
 			path = Swiftiris;
@@ -93,6 +119,7 @@
 		EBADEC791A046DAA00CFB658 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EBADECB91A047AA100CFB658 /* Image */,
 				EBADEC7A1A046DAA00CFB658 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +140,31 @@
 				EBADEC941A046DAA00CFB658 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBADEC9F1A047A3C00CFB658 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EBADECA01A047A3C00CFB658 /* bomb.mp3 */,
+				EBADECA11A047A3C00CFB658 /* drop.mp3 */,
+				EBADECA21A047A3C00CFB658 /* gameover.mp3 */,
+				EBADECA31A047A3C00CFB658 /* levelup.mp3 */,
+				EBADECA41A047A3C00CFB658 /* theme.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		EBADECB91A047AA100CFB658 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				EBADECBA1A047AA100CFB658 /* background.png */,
+				EBADECBB1A047AA100CFB658 /* background@2x.png */,
+				EBADECBC1A047AA100CFB658 /* gameboard.png */,
+				EBADECBD1A047AA100CFB658 /* gameboard@2x.png */,
+				EBADECBE1A047AA100CFB658 /* whitebg.png */,
+				EBADECBF1A047AA100CFB658 /* whitebg@2x.png */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +248,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBADEC8A1A046DAA00CFB658 /* LaunchScreen.xib in Resources */,
+				EBADECC11A047AA100CFB658 /* background@2x.png in Resources */,
+				EBADECC41A047AA100CFB658 /* whitebg.png in Resources */,
+				EBADECC31A047AA100CFB658 /* gameboard@2x.png in Resources */,
+				EBADECC21A047AA100CFB658 /* gameboard.png in Resources */,
+				EBADECC01A047AA100CFB658 /* background.png in Resources */,
+				EBADECA61A047A3C00CFB658 /* drop.mp3 in Resources */,
+				EBADECC51A047AA100CFB658 /* whitebg@2x.png in Resources */,
+				EBADECA91A047A3C00CFB658 /* theme.mp3 in Resources */,
+				EBADECA71A047A3C00CFB658 /* gameover.mp3 in Resources */,
 				EBADEC871A046DAA00CFB658 /* Images.xcassets in Resources */,
+				EBADECA81A047A3C00CFB658 /* levelup.mp3 in Resources */,
+				EBADECAB1A047A4500CFB658 /* Sprites.atlas in Resources */,
+				EBADECA51A047A3C00CFB658 /* bomb.mp3 in Resources */,
 				EBADEC851A046DAA00CFB658 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +477,7 @@
 				EBADEC9B1A046DAA00CFB658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBADEC9C1A046DAA00CFB658 /* Build configuration list for PBXNativeTarget "SwiftirisTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +486,7 @@
 				EBADEC9E1A046DAA00CFB658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
