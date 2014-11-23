@@ -1,12 +1,39 @@
 //
-//  SquareShape.swift
+//  TShape.swift
 //  Swiftiris
 //
-//  Created by Niraj  on 11/1/14.
+//  Created by Niraj  on 11/23/14.
 //  Copyright (c) 2014 Niraj. All rights reserved.
 //
 
-class SquareShape:Shape {
+class TShape:Shape {
+    /*
+    Orientation 0
+    
+    • | 0 |
+    | 1 | 2 | 3 |
+    
+    Orientation 90
+    
+    • | 1 |
+    | 2 | 0 |
+    | 3 |
+    
+    Orientation 180
+    
+    •
+    | 1 | 2 | 3 |
+    | 0 |
+    
+    Orientation 270
+    
+    • | 1 |
+    | 0 | 2 |
+    | 3 |
+    
+    • marks the row/column indicator for the shape
+    
+    */
     
     override var blockRowColumnPositions: [Orientation: Array<(columnDiff: Int, rowDiff: Int)>] {
         return [
@@ -25,5 +52,4 @@ class SquareShape:Shape {
             Orientation.TwoSeventy: [blocks[FirstBlockIdx], blocks[FourthBlockIdx]]
         ]
     }
-    
 }
