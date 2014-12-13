@@ -1,10 +1,9 @@
 Swiftiris
 =========
 
-## What is Swiftiris?
-Swiftiris is a Tetris clone made in Swift, built to familiarize myself with Swift and iOS.
+Tetris clone made in Swift + SpriteKit, built to familiarize myself with iOS gaem development.
 
-**NOTICE**: Not complete, under active development.
+<img src="https://raw.githubusercontent.com/xasos/Swiftiris/master/Screenshots/screen1.png">
 
 ## License
 [MIT License](LICENSE)
